@@ -1,0 +1,81 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article{
+    width: 37.5rem;
+    height: 28.125rem;
+    background-color: white;
+    border-radius: 10px;
+    margin-block-start: 12.5rem;
+    display: flex; /* I have added this which makes the image fit into the article */
+    
+}
+
+img{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; 
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+    /* width: 300px; So I dont have to manually scale the images in order to fit . */
+    /* height: auto; */
+}
+.sidetxt{
+    margin-inline-start: 2.0625rem;
+    margin-block-start: 2.0625rem;
+    margin-inline-end: 2.6875rem;
+}
+
+h1{
+    font-size: 2.125rem;
+    text-align: start;
+}
+
+.p1{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-size: 0.875rem;
+}
+
+.p2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+.currency{
+    display: flex;
+    margin-bottom: -1.1875rem;
+}
+
+.p3{
+    font-size: 1.875rem;
+    color: hsl(158, 36%, 37%);
+
+}
+
+.p4{
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+    margin-block-start: 2.375rem;
+    margin-inline-start: 1.125rem;
+}
+
+button{
+    width: 12.5rem;
+    height: 2.5rem;
+    background-color: hsl(158, 42%, 18%);
+    color: white;
+    border-radius: 5px;
+    border-style: none;
+    font-weight: 700;
+}
+
+button:hover{
+    
+}
